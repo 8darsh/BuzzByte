@@ -12,43 +12,43 @@
         <scene sceneID="0HK-Pq-sVM">
             <objects>
                 <collectionViewController id="6Z2-cQ-klD" customClass="ViewController" customModule="BuzzByte" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" dataMode="prototypes" id="UqG-8y-MBG">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" id="UqG-8y-MBG">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="IqS-iS-IpD">
-                            <size key="itemSize" width="388" height="703"/>
+                            <size key="itemSize" width="388" height="726"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="Kkq-X9-n3E" customClass="NewsCollectionViewCell" customModule="BuzzByte" customModuleProvider="target">
-                                <rect key="frame" x="2.6666666666666665" y="0.0" width="388" height="703"/>
+                                <rect key="frame" x="2.6666666666666665" y="0.0" width="388" height="726"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Put-7n-3wy">
-                                    <rect key="frame" x="0.0" y="0.0" width="388" height="703"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="388" height="726"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Acl-5f-VZa">
-                                            <rect key="frame" x="10" y="10" width="368" height="200"/>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Acl-5f-VZa">
+                                            <rect key="frame" x="10" y="88" width="368" height="200"/>
                                             <constraints>
                                                 <constraint firstAttribute="height" constant="200" id="laI-81-3u2"/>
                                             </constraints>
                                         </imageView>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="top" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="4K0-Qp-KaV">
-                                            <rect key="frame" x="10" y="220" width="368" height="35"/>
+                                            <rect key="frame" x="10" y="298" width="368" height="35"/>
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="plain" title="Button"/>
                                         </button>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEA-4T-Pld">
-                                            <rect key="frame" x="181" y="260" width="197" height="18"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GEA-4T-Pld">
+                                            <rect key="frame" x="340.66666666666669" y="338" width="37.333333333333314" height="18"/>
                                             <fontDescription key="fontDescription" style="UICTFontTextStyleSubhead"/>
                                             <color key="textColor" systemColor="systemGray2Color"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wAN-G1-pyN">
-                                            <rect key="frame" x="10" y="315" width="368" height="23.333333333333314"/>
+                                            <rect key="frame" x="10" y="393" width="368" height="23.333333333333314"/>
                                             <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
@@ -66,10 +66,10 @@
                                         <constraint firstItem="Acl-5f-VZa" firstAttribute="leading" secondItem="Put-7n-3wy" secondAttribute="leading" constant="10" id="UeW-ms-iR2"/>
                                         <constraint firstAttribute="trailing" secondItem="wAN-G1-pyN" secondAttribute="trailing" constant="10" id="kUv-zz-PjG"/>
                                         <constraint firstAttribute="trailing" secondItem="Acl-5f-VZa" secondAttribute="trailing" constant="10" id="l2k-ty-PIm"/>
-                                        <constraint firstItem="Acl-5f-VZa" firstAttribute="top" secondItem="Put-7n-3wy" secondAttribute="top" constant="10" id="nvx-bt-9GK"/>
+                                        <constraint firstItem="Acl-5f-VZa" firstAttribute="top" secondItem="Put-7n-3wy" secondAttribute="topMargin" constant="80" id="nvx-bt-9GK"/>
                                     </constraints>
                                 </collectionViewCellContentView>
-                                <size key="customSize" width="388" height="703"/>
+                                <size key="customSize" width="388" height="726"/>
                                 <connections>
                                     <outlet property="author" destination="GEA-4T-Pld" id="7Jl-Ss-xcT"/>
                                     <outlet property="newsDescription" destination="wAN-G1-pyN" id="NWK-KH-cqR"/>
@@ -87,12 +87,13 @@
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="das-h1-TGt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1907.6335877862596" y="-78.16901408450704"/>
+            <point key="canvasLocation" x="2248" y="-228"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Collection-->
         <scene sceneID="dSo-T2-Zbi">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="d9E-D4-wgg" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Collection" image="gyroscope" catalog="system" id="Ppf-gn-gfC"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="PuO-gB-KC0">
                         <rect key="frame" x="0.0" y="59" width="393" height="96"/>
@@ -105,15 +106,16 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ezw-io-t5y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="980.91603053435108" y="-78.16901408450704"/>
+            <point key="canvasLocation" x="828" y="-228"/>
         </scene>
     </scenes>
     <resources>
+        <image name="gyroscope" catalog="system" width="128" height="123"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray2Color">
-            <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.68235294120000001" green="0.68235294120000001" blue="0.69803921570000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
